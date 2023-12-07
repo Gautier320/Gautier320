@@ -1,0 +1,49 @@
+header{
+    width: 1160px;
+    height: 100px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    color: white;
+    background: #2c1d27;
+}
+
+body{
+    width: 1160px;
+    height: auto;
+    color: white;
+    text-align: center;
+    background: #782221;
+}
+main{
+   
+    color: black;
+    text-align: left;
+    border: thin solid yellow;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: row-reverse;
+    
+}
+
+.add{
+    margin: 100px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+section{
+    width: 900px;
+    min-height: 500px;
+    background:white;
+    display: flex;
+    flex-direction: column;
+}
+.gauche{
+    width: 500px;
+    max-height: 500px;
+    color: white;
+    background-color:#782221;
+}
